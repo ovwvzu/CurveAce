@@ -1,0 +1,66 @@
+.css-BlockerOverlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(1, 1, 1, 0.64);
+    z-index: 111;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: none;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: OpenSans,sans-serif;
+    padding: 0px 60px;
+}
+.css-BlockerPopup {
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 5px;
+    right: 5px;
+    max-width: 370px;
+    padding-bottom: 25px;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+.css-BlockerBG {
+    vertical-align: top;
+    max-width: 84%;
+    padding: 4%;
+}
+.css-BlockerTitle {
+    color: rgb(247, 81, 87);
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 6px;
+}
+.css-BlockerContent {
+    color: rgb(44, 44, 44);
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 20px;
+    padding: 0px 21px;
+}
+.css-BlockerReload {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(62, 81, 181);
+    height: 34px;
+    width: 100px;
+    padding: 5px;
+    margin: 16px auto 0px;
+    border-radius: 5px;
+}
